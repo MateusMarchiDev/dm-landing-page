@@ -87,15 +87,16 @@ export class AppComponent implements OnInit{
   }
 
   playAnimations() {
-    gsap.fromTo('#h2-import-servico', { y: -100, opacity: 0 }, { y: 0, opacity: 1, duration: 1 });
-    gsap.fromTo('.princ-servico1', { x: -100, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
-    gsap.fromTo('.princ-servico2', { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 1, delay: 0.5 });
+      gsap.fromTo('#h2-import-servico', { y: -100, opacity: 0 }, { y: 0, opacity: 1, duration: 1 });
+      gsap.fromTo('.princ-servico1', { x: -100, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+      gsap.fromTo('.princ-servico2', { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 1, delay: 0.5 });
   }
+
   playAnimations2() {
-    gsap.fromTo('.texto-sobre-mim', { x: -100, opacity: 0 }, { x: 10, opacity: 1, duration: 1 });
-    gsap.to('.img-sobre', { x: -20, opacity: 1, duration: 0.3, delay: 0.5, repeat: 3, yoyo: true, startAt: {x: 25} });
-    gsap.to('.img-fechamento', { x: 10, opacity: 1, duration: 0.3, delay: 0.5, repeat: 3, yoyo: true, startAt: {x: -50} });
-    gsap.fromTo('.texto-fechamento', { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 1, delay: 0.5 });
+      gsap.fromTo('.texto-sobre-mim', { x: -100, opacity: 0 }, { x: 10, opacity: 1, duration: 1 });
+      gsap.to('.img-sobre', { x: -20, opacity: 1, duration: 0.3, delay: 0.5, repeat: 3, yoyo: true, startAt: {x: 25} });
+      gsap.to('.img-fechamento', { x: 10, opacity: 1, duration: 0.3, delay: 0.5, repeat: 3, yoyo: true, startAt: {x: -50} });
+      gsap.fromTo('.texto-fechamento', { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 1, delay: 0.5 });
   }
   digitarTexto() {
     let index = 0;

@@ -41,6 +41,7 @@ body, main {
   height: 485px;
 }
 .texto-animado {
+  font-family: "Share Tech Mono", monospace;
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
@@ -113,7 +114,7 @@ body, main {
   height: 35px;
 }
 .img-mais{
-  height: 25px;
+  height: 20px;
   margin-right: 5px;
 }
 .texto-centralizado {
@@ -177,10 +178,12 @@ body, main {
 .img-sobre{
   background-image: url('../assets/angular_react.jpg');
   background-size: 90%;
+  background-repeat: no-repeat;
 }
 .img-fechamento{
   background-image: url('../assets/fundo-pc.jpg');
   background-size: 80%;
+  background-repeat: no-repeat;
 }
 .img-sobre, .img-fechamento {
   width: 450px;
@@ -233,14 +236,18 @@ footer{
 }
 @media screen and (max-width: 650px) {
   .texto-centralizado > div{
-    font-size: 20px;
+    font-size: 18px;
   }
   .botao-whats{
+    margin-top: 12px;
     height: 50px;
   }
   #h2-import-servico{
     padding-left: 10px;
     padding-top: 5px;
+    font-size: 18px;
+  }
+  #h2-import{
     font-size: 20px;
   }
   .princ-motivos{
@@ -250,18 +257,51 @@ footer{
   }
 
   .aperto-mao{
-    height: 280px;
+    height: 320px;
   }
   .aperto-mao > p{
     text-align: justify;
-    width: 89vw;
-    font-size: 20px;
+    width: 85vw;
+    font-size: 18px;
   }
   .princ-servico, .container-sobre-mim,  .container-fechamento {
     display: block;
   }
+  .princ-servico{
+    margin-left: 8px
+  }
+  .nosso-servico{
+    height: 200px;
+  }
  .img-sobre, .img-fechamento{
-  margin: 0 auto;
+  margin-left: 5px;
+ }
+ .img-fechamento{
+  width: 320px;
+  background-size: 60%;
+ }
+ .img-sobre{
+  width: 320px;
+  background-size: 65%;
+ }
+ .links > a{
+  font-size: 12px;
+ }
+ .import-lista{
+  height: 280px;
+ }
+ .img-botao-sobre{
+  height: 38px;
+ }
+ .texto-sobre-mim{
+  width: 95%;
+ }
+ .texto-fechamento{
+  width: 95%;
+ }
+ .texto-sobre-mim > p, .texto-fechamento > p{
+  font-size: 16px;
+  text-align: justify;
  }
 }
 
