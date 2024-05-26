@@ -258,6 +258,7 @@ footer{
 
   .aperto-mao{
     height: 320px;
+    padding-bottom: 15px;
   }
   .aperto-mao > p{
     text-align: justify;
@@ -300,6 +301,8 @@ footer{
   width: 95%;
  }
  .texto-sobre-mim > p, .texto-fechamento > p{
+  padding-left: 5px;
+  padding-bottom: 5px;
   font-size: 16px;
   text-align: justify;
  }
